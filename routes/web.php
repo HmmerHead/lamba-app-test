@@ -15,4 +15,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return App\Sidecar\Browser::execute()->body();
+    // return App\Sidecar\Hello::execute();
 });
